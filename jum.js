@@ -27,3 +27,36 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+const arrow1=document.querySelector(".arrow1");
+const arrow2=document.querySelector(".arrow2");
+arrow1.disabled=true;
+
+const slideFooter=()=>
+{
+  const img1=document.querySelectorAll('.imfooter1');
+  const img2=document.querySelectorAll('.imfooter2');
+  
+  for(let i=0; i<img1.length;i++)
+  {
+    const slide1=img1[i];
+    const slide2=img2[i];
+
+    if(slide1.style.display=='block')
+    {
+      slide1.style.display='none';
+      slide2.style.display='block';
+      arrow2.disabled=true;
+      arrow1.disabled=false;
+
+    }else{
+
+      slide1.style.display='block';
+      slide2.style.display='none';
+      arrow1.disabled=true;
+      arrow2.disabled=false;
+    }
+
+  }
+}
