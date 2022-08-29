@@ -267,3 +267,373 @@ a
     border: 3px solid #ffffff;
     margin-bottom: 3px;
 }
+
+
+
+
+
+
+
+/*Mise en forme du footer*/
+
+footer{margin-top: 20px;
+    width: 81.7%;
+    margin: 10px auto;
+    background-color: white;
+  
+  
+  }
+  #footer
+  {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  
+  footer img{
+    height: 110px;
+    margin: 0 auto;
+  }
+  
+  .slide-container
+  {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .imfooter2
+  {
+    display: none;
+  }
+  
+  .arrow1,.arrow2
+  {
+    background-color: transparent;
+    border: none;
+    max-height: 50px;
+    margin: auto 0;
+    size: 17px;
+  }
+  
+  
+  .arrow1:hover,.arrow2:hover
+  {
+   cursor: pointer;
+  }
+
+
+  /*mise en forme du main*/
+  #central
+{
+    height: 430px;
+    font-size: 24px;
+    background-color: #f5f5dc;
+    text-align: left;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 0.5px;
+    gap: 5px;
+    position: relative;
+    padding-top: 0px; 
+    padding-left: 10px;
+    width: 100%;
+
+    
+
+}
+
+.asideG
+{
+
+    justify-items: right;
+    height: 99%;
+    width: 17%;
+    margin: 2px;
+    margin-left: 2px;
+    padding-top: -4px;
+    background: #ffffff;
+    position: absolute;
+    left: 47px;
+
+}
+
+.aside ul{
+  align-items: center;
+  margin-top: 0px;
+  line-height: 0px;
+}
+
+.asideG ul li a{
+  display: block;
+  padding: 16px 25px;
+  color: black;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: small;
+  margin-left: 15px;
+  padding-left: 2px;
+  margin-bottom: -5px;
+  text-decoration: none;
+ }
+
+ ul {
+  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ li{
+  padding-left: 5px;
+ }
+ 
+ .asideG ul paraGaucheli a .icon{
+  font-size: 20px;
+  color: white;
+  vertical-align: middle;
+ }
+ 
+
+ .asideG ul li a:hover{ /*changement de couleuur de fond et de couleur des elents lorsq survole*/
+
+  color: orange;
+ }
+ 
+
+
+
+.milieu /* nom à remplacer par milieu*/
+{
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-right: 1.5px;
+    height: 99%;
+    width: 70%;
+    position: relative;
+    left: -26px;
+    margin: auto;
+    padding-left: 2px;
+    padding-bottom: Opx;
+}
+
+.mySlides 
+{
+  display: none;
+}
+.img 
+{
+  vertical-align: middle;
+  height: 415px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:  #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.asideD
+{
+  background: #ffffff;
+  border: 3px solid #ffffff;
+    justify-items: right;
+    height: 99%;
+    width: 20%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 950px;
+
+}
+
+.haut
+{
+  height: 42%;
+  width: 94%;
+  background-color: #f5f5dc;
+  border-radius: 1px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+  margin-bottom: 8px;
+  
+}
+
+.lignes
+{
+  height: 32.333%;
+  width: 100%;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  position: relative;
+  align-items: center;
+  vertical-align: center;
+}
+.tex
+{
+  line-height: 1px;
+  font-size: 17px;
+
+}
+
+.a{
+  color: black;
+}
+
+.a1 
+{
+  color: orange;
+}
+
+.bas
+{
+  height: 50%;
+  width: 100%;
+  margin-bottom: 0.5px;
+}
+
+.imDroite
+{
+  width: 1OOpx;
+  height: 239px;
+}
+
+
+img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+ 
+/* Our main images-slideshow container */
+.milieu {
+  max-width: 612px;
+  position: relative;
+  margin: auto;
+}
+ 
+/*Style for ">" next and "<" previous buttons */
+.slider-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+ 
+/* setting the position of the previous button towards left */
+.previous {
+  left: 2%;
+}
+ /* setting the position of the next button towards right */
+.next {
+  right: 2%;
+}
+ 
+/* On hover, adding a background color */
+.previous:hover,
+.next:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+@media all and(min-width: 800px) 
+{
+
+    .central
+    {
+    flex: 3;
+    }
+
+    .aside1
+    {
+        order: 1;
+    }
+
+    .aside2
+    {
+        order: 2;
+    }
+    
+    .central
+    {
+        order: 2;
+    }
+
+    .monfooter
+    {
+        order: 4;
+    }
+}
+
+@media all and(min-width: 600px) 
+ {
+
+    .aside
+    {
+        flex: 1;
+    }
+
+}
+  
