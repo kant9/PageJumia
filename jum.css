@@ -1,0 +1,269 @@
+.contenant{
+    display: flex;
+    flex-flow: row wrap; /* permet de disposer les bloc verticalement*/
+    text-align: center;
+    background: #f5f5f5;
+
+
+}
+
+.contenant>*{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+
+     font-family: 'Baloo Paaji 2', cursive;
+  
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+} 
+
+
+.EnsembleHeaders
+{
+    height: 200px;
+    background-color:#f5f5dc;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+
+}
+
+.headerImage
+{
+    height: 27%;
+    width: 100%;
+   
+    border: 1px solid #f5f5dc;;
+    margin-bottom:1px;
+    margin-top: 0px;
+
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.headerSecond
+{
+    height: 20%;
+    width: 100%;
+    background-color: #f5f5dc;
+    border: 1px solid #f5f5dc;
+    margin-bottom: 1x;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  
+}
+
+.paraGauche
+{
+  align-items: center;
+  position: absolute;
+  left: 2px;
+  top: 8px;
+  
+  
+}
+
+
+a
+{color: orange;
+  size: 20px;
+  text-decoration: none;
+  
+
+}
+
+.ptitMenu
+{
+  align-items: center;
+  position: absolute;
+  left: 600px;
+  top: 4px;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  size: 20px;
+  font-weight: bold;
+  height: 95%;
+  gap: 30p;
+
+  
+
+
+}
+#b1
+{
+  position: absolute;
+  left: -95px;
+  align-items: center;
+}
+#b2
+{
+  position: absolute;
+  left: -19px;
+  align-items: center;color:gray;
+}
+
+#b2:hover
+{
+  color: #0F056B;
+}
+
+#b3
+{
+  position: absolute;
+  left: 57px;
+  align-items: center;
+  color:gray;
+}
+#b3:hover
+{
+  color: orange;
+  
+}
+
+#links_name:hover
+{
+  border-bottom: 1px solid orange;
+}
+
+
+
+
+.headerPrincipal
+{
+  height: 40%;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    position: relative;
+
+}
+
+.tofLogo 
+{
+  position:absolute;
+  width: 12%;
+  height: 70%;
+  left: 27px;
+  top: 9px;
+
+}
+
+/* La barre de recherche*/
+
+   #barre
+   {
+    position: absolute;
+    left: 274px;
+    top: 26px;
+   }
+
+   .inp
+   {
+    border-width: 0px;
+    padding: 3px 3px;
+    width: 476px;
+    height: 30px;
+    border: 1px solid;
+    padding-left: 13px;
+
+   }
+        .bout {
+          background: #ff7f00;
+          border-width: 0px;
+          padding: 2px 2px;
+          width: 115px;
+          height: 38px;
+          cursor: pointer;
+          font: bold 12px Arial, Helvetica;
+          color: #fff;
+          text-shadow: 0 1px 0 #555;
+          border-radius: 5px;
+          text-align: center;
+          }
+          .bout:hover {
+            background: #ff6600;
+            }
+            
+            .bout:active {
+              background: #5b5d60;
+              outline: none;
+              }
+              
+              
+
+
+.menuIcon
+{
+  display: flex;
+  position: absolute;
+  height: 60%;
+  width: 28%;
+  background-color:#ffffff;
+  border: 1px solod;
+  left: 880px;
+  top: 20px;
+  gap: 17px;
+  padding:10px 0px;
+  size: 30px;
+}
+
+
+.c{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  gap: 17px;
+  color: black;
+}
+.c1{
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  gap: 17px;
+  color: black;
+}
+.c2{
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  gap: 17px;
+  color: black;
+}
+
+
+.paraGauche
+{
+    width: 20%;
+    color: red;
+}
+
+.ptiMenu
+{
+    width: 50%;
+    background-color: aquamarine;
+    margin-left: 50px; 
+}
+
+.headerPrincipal
+{
+    height: 50%;
+    width: 100%;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    margin-bottom: 3px;
+}
