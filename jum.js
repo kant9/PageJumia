@@ -27,3 +27,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+// window.onload=function()
+// {
+//   var heading=document.createElement("h1");
+//   var heading_text=document.createTextNode("TITRE AJOUTE");
+//   heading.appendChild(heading_text);
+//   document.body.div.appendChild(heading);
+  
+// }
