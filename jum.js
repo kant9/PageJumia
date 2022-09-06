@@ -9,7 +9,7 @@ function plusSlides(n) {
 
 
 
-function showSlides(n) {
+function showSlides(n) {  // Le slider central
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
@@ -28,11 +28,6 @@ function showSlides(n) {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-// window.onload=function()
-// {
-//   var heading=document.createElement("h1");
-//   var heading_text=document.createTextNode("TITRE AJOUTE");
-//   heading.appendChild(heading_text);
-//   document.body.div.appendChild(heading);
-  
-// }
+
+
+
