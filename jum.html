@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="jum.css">
     <title>JUMIA2</title>
 </head>
-<body onload="window.alert('Bienvenu sur ma page web');">
+<body>
     <div class="conteneurGeneral">
         <header class="header">
             <div id="header1">
@@ -216,7 +216,7 @@
         </main>
         <footer>
             <div id="footer" class="slide-container">
-                <button class="arrow1" onclick="slideFooter()">&#10094;</button>
+                <button class="arrow1" onclick="slide_du_bas()">&#10094;</button>
 
                 <img src="../LesIm/im1footer.jpeg" class="imfooter1">
                 <img src="../LesIm/im2footer.jpg" class="imfooter1">
@@ -232,7 +232,7 @@
                 <img src="../LesIm/im7footer.jpg" class="imfooter2">
                 <img src="../LesIm/im5footer.jpg" class="imfooter2">
                 <img src="../LesIm/im2footer.jpg" class="imfooter2">
-                <button class="arrow2" onclick="slideFooter()">&#10095;</button>
+                <button class="arrow2" onclick="slide_du_bas()">&#10095;</button>
             </div>
         </footer>
 
@@ -240,11 +240,13 @@
     <script src="jum.js"></script>
     <script src="https://use.fontawesome.com/05224dd41c.js"></script> 
     <script>
-        const arrow1=document.querySelector(".arrow1");
+
+      /* le code Js pour le slider du footer*/
+      const arrow1=document.querySelector(".arrow1");
 const arrow2=document.querySelector(".arrow2");
 arrow1.disabled=true;
 
-const slideFooter=()=>{
+const slide_du_bas=()=>{     // fonction qui gere le slider du footer
   const img1=document.querySelectorAll('.imfooter1');
   const img2=document.querySelectorAll('.imfooter2');
   
@@ -270,7 +272,6 @@ const slideFooter=()=>{
 
   }
 }
-
     </script>
 </body>
 </html>
